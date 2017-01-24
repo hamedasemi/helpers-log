@@ -1,0 +1,28 @@
+{
+  "name": "webrew-helpers-log",
+  "version": "0.0.7",
+  "description": "",
+  "main": "./dist",
+  "scripts": {
+    "prepublish": "babel --no-babelrc ./src  --out-dir ./dist --presets=es2015,stage-3,stage-0,babel-polyfill --plugins=transform-runtime,babel-root-import --source-maps=inline"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.0.15",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.18.0",
+    "babel-root-import": "^4.1.5",
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "webrew-helpers-debug": "0.0.2"
+  }
+}
