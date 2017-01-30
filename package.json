@@ -1,5 +1,5 @@
 {
-  "name": "webrew-helpers-log",
+  "name": "io-log",
   "version": "0.0.7",
   "description": "",
   "main": "./dist",
